@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 446" font-family="Inter, Helvetica, Arial, sans-serif">
+  <g fill="none" stroke="#232427" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 404 L258 432 H382 L408 404"/>
+    <line x1="214" y1="404" x2="426" y2="404"/>
+  </g>
+  <path d="M320 118 C392 118 410 205 410 262 C410 340 368 402 320 402 C272 402 230 340 230 262 C230 205 248 118 320 118 Z"
+        fill="#EFEFEF" stroke="#232427" stroke-width="3"/>
+  <path d="M238 232 C282 246 358 246 402 232" fill="none" stroke="#232427" stroke-width="2" opacity="0.5"/>
+  <circle cx="237" cy="234" r="3.5" fill="#232427" opacity="0.5"/>
+  <circle cx="403" cy="234" r="3.5" fill="#232427" opacity="0.5"/>
+  <rect x="300" y="92" width="40" height="26" rx="4" fill="#8C9197" stroke="#232427" stroke-width="2"/>
+  <line x1="308" y1="101" x2="332" y2="101" stroke="#FCFCFC" stroke-width="2"/>
+  <line x1="308" y1="109" x2="332" y2="109" stroke="#FCFCFC" stroke-width="2"/>
+  <rect x="286" y="350" width="68" height="22" rx="4" fill="#8C9197" stroke="#232427" stroke-width="2"/>
+  <line x1="297" y1="361" x2="343" y2="361" stroke="#FCFCFC" stroke-width="2"/>
+  <g stroke="#8C9197" stroke-width="1.6" fill="none">
+    <path d="M342 101 L470 96"/>
+    <path d="M352 360 L470 372"/>
+  </g>
+  <g fill="#232427" font-size="20" font-weight="600">
+    <text x="478" y="92">Top vent</text>
+    <text x="478" y="380">Bottom vent</text>
+  </g>
+  <g fill="#6E7176" font-size="15">
+    <text x="478" y="113">open wider = hotter</text>
+    <text x="478" y="399">(draft door)</text>
+  </g>
+</svg>

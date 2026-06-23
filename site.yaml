@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────
+# Global settings for your guest guide.
+# Edit the values on the right. Everything else (the page + PDF)
+# is generated from this file plus the markdown in content/.
+# ─────────────────────────────────────────────────────────────
+
+property_name: "Haus Invictus"            # shown big on the cover
+tagline: "Welcome — make yourself at home" # one short line under the title (placeholder — tweak anytime)
+location_line: "Costa Mesa, California"    # neighbourhood / city, shown on cover
+
+# Brand — parked for the theming pass (shown once the logo arrives).
+company: "Invictus Experience, LLC"
+
+# How guests reach you (tiered): Airbnb for the record, WhatsApp for urgent.
+host_name: "Martin & Ksenia"
+contact_primary: "Message us in the Airbnb app — fastest, and keeps everything in one place"
+
+# ── Private values live in secrets.local.yaml (git-ignored), NOT here. ──
+# They are merged in at build time. Keeping them out of site.yaml means the
+# repo can be public or private and never expose the door code / Wi-Fi / address.
+phone: ""                                  # → secrets.local.yaml
+address: ""                                # → secrets.local.yaml
+door_code: ""                              # → secrets.local.yaml
+wifi_password: ""                          # → secrets.local.yaml
+
+wifi_network: "Haus Invictus and Haus Invictus-5G"   # SSIDs — not secret, shown on the web
+
+# Privacy: these values render in the PDF but are hidden on the public web page.
+# Reference any of them in content with {{key}}  (e.g. {{address}}, {{phone}}, {{wifi_password}}).
+private: [address, phone, wifi_password, door_code]
+private_placeholder: "Shared in your booking confirmation"
+
+# Local emergency info (guests really want this — keep it accurate).
+emergency_number: "911"
+nearest_hospital: "Hoag Hospital, Newport Beach — 1 Hoag Dr · 24-hr ER (~2 mi)"
+nearest_pharmacy: "CVS, 175 E 17th St, Costa Mesa (~8am–8pm)"
+
+# Appearance + hosting
+accent: "#8C9197"                          # silver-grey — the only accent (matches the wordmark)
+cover_bg: "#16293D"                        # deep navy — masthead + PDF cover
+domain: ""                                 # leave blank for now → site uses the default <username>.github.io URL. Set later to switch on the custom domain.
+publish_pdf: false                          # keep the private PDF OUT of the public site (it holds the door code + WiFi password)
+
+# Footer line printed at the bottom of the PDF + page footer
+footer_note: "Thanks for staying with us."
