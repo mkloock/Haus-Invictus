@@ -1,4 +1,4 @@
-yamlname: Build & deploy guide
+name: Build & deploy guide
 
 on:
   push:
